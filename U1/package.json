@@ -1,0 +1,17 @@
+{
+  "name": "u1",
+  "version": "1.0.1",
+  "description": "Einfacher Express NodeJS Server bzw. Twitter API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Team NoName",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "simple-memory-store": "^1.0.2"
+  }
+}

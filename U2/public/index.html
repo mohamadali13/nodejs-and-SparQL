@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Chat Client - Mohachiflow</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+        <script src="client.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <div id="container">
+            <h2>WebSocket Client 0.1</h2>
+            Username: <input id="name" type="text" />
+            <input id="connectButton" type="button" value="Connect" onclick="connectSocket()" />
+            <input id="disconnectButton" type="button" value="Disconnect" />
+            <br>
+            Recipient: <input id="recipient" type="text" />
+            <br>
+            Message: <input id="message" type="text" />
+            <div class="log-container">
+                <h3>Client-Log</h3>
+                <div id="log">
+                </div>
+                <h3>CHAT HISTORY</h3>
+                <div id="history">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
